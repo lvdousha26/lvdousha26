@@ -1,4 +1,5 @@
-## Hi there 👋
+
+major in Data Science and Big Data Technology.
 
 <!--
 **lvdousha26/lvdousha26** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
