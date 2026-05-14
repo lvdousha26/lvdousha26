@@ -134,7 +134,7 @@ me.say_hi()
 
 <!-- Visitor Counter -->
 <p align="center">
-  <img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2Flvdousha26&s=10&c=00c6ff&bg=00000000&no=7" alt="visitors" />
+  <img src="https://komarev.com/ghpvc/?username=lvdousha26&label=Profile%20views&color=00c6ff&style=flat" alt="visitors" />
 </p>
 
 <p align="center">
