@@ -70,8 +70,8 @@ me.say_hi()
 
 <p align="center">
   <a href="https://github.com/lvdousha26">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lvdousha26&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lvdousha26&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+    <img height="180em" src="https://gh-stats.com/api?username=lvdousha26&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true" />
+    <img height="180em" src="https://gh-stats.com/api/top-langs?username=lvdousha26&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" />
   </a>
 </p>
 
