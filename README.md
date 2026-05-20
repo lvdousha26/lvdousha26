@@ -75,12 +75,7 @@ me.say_hi()
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/lvdousha26">
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lvdousha26&theme=tokyonight&hide_border=true&background=0D1117&stroke=00C6FF&ring=00C6FF&fire=FF6B6B&currStreakLabel=00C6FF" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lvdousha26&theme=tokyonight" />
-  </a>
-</p>
+
 
 ---
 
