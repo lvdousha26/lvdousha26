@@ -90,16 +90,7 @@ me.say_hi()
 
 ---
 
-<!-- Trophies -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> GitHub Trophies
 
-<p align="center">
-  <a href="https://github.com/lvdousha26">
-    <img src="https://github-profile-trophy.vercel.app/?username=lvdousha26&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
-  </a>
-</p>
-
----
 
 <!-- Snake Animation -->
 ## <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="25"> Watch My Contributions
