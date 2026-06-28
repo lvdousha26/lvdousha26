@@ -107,7 +107,7 @@ me.say_hi()
 ## <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Recent Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#1](https://github.com/SurroundedByGugugu/WHATtheSpirebasedonQQ/issues/1) in [SurroundedByGugugu/WHATtheSpirebasedonQQ](https://github.com/SurroundedByGugugu/WHATtheSpirebasedonQQ)
+1. 🎉 Merged PR [#1](https://github.com/lvdousha26/EduStar/pull/1) in [lvdousha26/EduStar](https://github.com/lvdousha26/EduStar)
 <!--END_SECTION:activity-->
 
 ---
