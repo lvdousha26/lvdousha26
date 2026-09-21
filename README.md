@@ -107,7 +107,7 @@ me.say_hi()
 ## <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/lvdousha26/EduStar/pull/1) in [lvdousha26/EduStar](https://github.com/lvdousha26/EduStar)
+1. 💪 Opened PR [#116](https://github.com/jjyaoao/HelloAgents/pull/116) in [jjyaoao/HelloAgents](https://github.com/jjyaoao/HelloAgents)
 <!--END_SECTION:activity-->
 
 ---
