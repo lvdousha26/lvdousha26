@@ -1,14 +1,14 @@
 <!-- Header Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Code%20Artisan&descAlignY=55&descSize=20">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Code%20Artisan&descAlignY=55&descSize=20">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Code%20Artisan&descAlignY=55&descSize=20" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18" />
 </picture>
 
 <!-- Typing Effect -->
 <p align="center">
   <a href="https://github.com/lvdousha26">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=600&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Code+Artisan+%26+Tech+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Dream+of+becoming+an+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Enthusiast" alt="Typing SVG" />
   </a>
 </p>
 
@@ -28,10 +28,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-class Developer:
+class AIResearcher:
     def __init__(self):
         self.name = "lvdousha26"
         self.role = "Full Stack Developer"
+        self.dream = "To become an AI Researcher & Engineer"
         self.location = "China"
         self.code = {
             "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue"],
@@ -40,13 +41,13 @@ class Developer:
             "devops": ["Docker", "Kubernetes", "CI/CD", "Linux"],
             "tools": ["Git", "VS Code", "Figma", "Postman"]
         }
-        self.current_focus = "Building awesome things with code"
+        self.current_focus = "Transitioning from full stack development into AI research"
         self.motto = "Talk is cheap. Show me the code."
 
     def say_hi(self):
         print("Thanks for dropping by! Let's connect and build something amazing!")
 
-me = Developer()
+me = AIResearcher()
 me.say_hi()
 ```
 
