@@ -108,7 +108,7 @@ me.say_hi()
 ## <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#86](https://github.com/hust-open-atom-club/Open-Source-Dashboard/pull/86) in [hust-open-atom-club/Open-Source-Dashboard](https://github.com/hust-open-atom-club/Open-Source-Dashboard)
+1. 💪 Opened PR [#916](https://github.com/PKUFlyingPig/cs-self-learning/pull/916) in [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
 <!--END_SECTION:activity-->
 
 ---
