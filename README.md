@@ -1,14 +1,14 @@
 <!-- Header Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Dream%20of%20becoming%20an%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18" />
 </picture>
 
 <!-- Typing Effect -->
 <p align="center">
   <a href="https://github.com/lvdousha26">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Dream+of+becoming+an+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Aspiring+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Enthusiast" alt="Typing SVG" />
   </a>
 </p>
 
@@ -32,7 +32,7 @@ class AIResearcher:
     def __init__(self):
         self.name = "lvdousha26"
         self.role = "Full Stack Developer"
-        self.dream = "To become an AI Researcher & Engineer"
+        self.aspiration = "AI Researcher & Engineer"
         self.location = "China"
         self.code = {
             "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue"],
@@ -65,33 +65,6 @@ me.say_hi()
 </p>
 
 ---
-
-<!-- GitHub Stats -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> GitHub Analytics
-
-<p align="center">
-  <a href="https://github.com/lvdousha26">
-    <img height="180em" src="https://gh-stats.com/api?username=lvdousha26&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true" />
-    <img height="180em" src="https://gh-stats.com/api/top-langs?username=lvdousha26&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
-</p>
-
-
-
----
-
-<!-- Activity Graph -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> Contribution Graph
-
-<p align="center">
-  <a href="https://github.com/lvdousha26">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=lvdousha26&custom_title=lvdousha26's%20Contribution%20Graph&bg_color=0D1117&color=00C6FF&line=00C6FF&point=FFFFFF&area=true&hide_border=true" width="100%">
-  </a>
-</p>
-
----
-
-
 
 <!-- Snake Animation -->
 ## <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="25"> Watch My Contributions
