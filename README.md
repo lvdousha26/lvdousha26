@@ -1,73 +1,40 @@
-<!-- Header Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=lvdousha26&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20AI%20Researcher%20%26amp%3B%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18" />
-</picture>
+<div align="center">
 
-<!-- Typing Effect -->
-<p align="center">
-  <a href="https://github.com/lvdousha26">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Aspiring+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Otaku" alt="Typing SVG" />
-  </a>
-</p>
+<a href="https://github.com/lvdousha26">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C6FF&center=true&vCenter=true&width=700&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Code+Artisan+%26+Tech+Otaku" alt="Typing SVG" />
+</a>
 
-<!-- Social Badges -->
-<p align="center">
-  <a href="https://github.com/lvdousha26"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Blog-2962FF?style=for-the-badge&logo=devdotto&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-</p>
+**Full Stack Developer · Aspiring AI Researcher & Engineer**
 
-<!-- About Me -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
+<code>📍 China</code> · <code>☕ Talk is cheap. Show me the code.</code>
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+</div>
 
-class AIResearcher:
-    def __init__(self):
-        self.name = "lvdousha26"
-        self.role = "Full Stack Developer"
-        self.aspiration = "AI Researcher & Engineer"
-        self.location = "China"
-        self.code = {
-            "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue"],
-            "backend": ["Python", "Java", "Node.js", "Go"],
-            "database": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-            "devops": ["Docker", "Kubernetes", "CI/CD", "Linux"],
-            "tools": ["Git", "VS Code", "Figma", "Postman"]
-        }
-        self.current_focus = "Transitioning from full stack development into AI research"
-        self.motto = "Talk is cheap. Show me the code."
+<table>
+<tr>
+<td valign="top" width="52%">
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's connect and build something amazing!")
+#### 🧰 Tech Stack
 
-me = AIResearcher()
-me.say_hi()
-```
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue&theme=dark&perline=6" /><br/>
+<img src="https://skillicons.dev/icons?i=python,java,nodejs,go&theme=dark&perline=4" /><br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=dark&perline=4" /><br/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,linux&theme=dark&perline=4" />
 
----
+</td>
+<td valign="top" width="48%">
 
-<!-- Tech Stack -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> Tech Stack
+#### 📌 Recent Activity
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,angular,tailwind,bootstrap&theme=dark&perline=9" /><br/>
-  <img src="https://skillicons.dev/icons?i=python,java,nodejs,go,rust,express,fastapi&theme=dark&perline=7" /><br/>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite&theme=dark&perline=5" /><br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,git,github,linux,nginx&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=vscode,figma,postman,webpack,babel,vite&theme=dark&perline=6" />
-</p>
+<!--START_SECTION:activity-->
+1. 🎉 Merged PR [#85](https://github.com/hust-open-atom-club/Open-Source-Dashboard/pull/85) in [hust-open-atom-club/Open-Source-Dashboard](https://github.com/hust-open-atom-club/Open-Source-Dashboard)
+<!--END_SECTION:activity-->
 
----
+</td>
+</tr>
+</table>
 
-<!-- Snake Animation -->
-## <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="25"> Watch My Contributions
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lvdousha26/lvdousha26/output/github-contribution-grid-snake-dark.svg">
@@ -75,36 +42,4 @@ me.say_hi()
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lvdousha26/lvdousha26/output/github-contribution-grid-snake.svg">
 </picture>
 
----
-
-<!-- Recent Activity -->
-## <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#85](https://github.com/hust-open-atom-club/Open-Source-Dashboard/pull/85) in [hust-open-atom-club/Open-Source-Dashboard](https://github.com/hust-open-atom-club/Open-Source-Dashboard)
-<!--END_SECTION:activity-->
-
----
-
-<!-- Dynamic Quotes -->
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</p>
-
----
-
-<!-- Visitor Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lvdousha26&label=Profile%20views&color=00c6ff&style=flat" alt="visitors" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%96%A4%20and%20%E2%98%95-00C6FF?style=for-the-badge" />
-</p>
-
-<!-- Footer Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer" />
-</picture>
+</div>
