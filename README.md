@@ -8,7 +8,7 @@
 <!-- Typing Effect -->
 <p align="center">
   <a href="https://github.com/lvdousha26">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Aspiring+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C6FF&center=true&vCenter=true&random=false&width=800&lines=Hello+%F0%9F%91%8B%2C+I'm+lvdousha26;Full+Stack+Developer;Aspiring+AI+Researcher+%26+Engineer;Code+Artisan+%26+Tech+Otaku" alt="Typing SVG" />
   </a>
 </p>
 
