@@ -5,7 +5,7 @@ I'm a third-year undergraduate majoring in Data Science and Big Data Technology 
 
 My interests are still fairly scattered, but they mostly fall somewhere within AI. I'm not drawn to directions where the SOTA can't be reproduced.
 
-Open to internships, RA positions, and PhD opportunities.
+Open to internships, RA positions, and direct PhD opportunities.
 
 ---
 
@@ -13,4 +13,4 @@ Open to internships, RA positions, and PhD opportunities.
 
 兴趣还比较发散，大致是 AI 领域。不太想去 SOTA 基本都复现不出的方向。
 
-正在寻找实习、RA 以及博士机会。
+正在寻找实习、RA 以及直博机会。
