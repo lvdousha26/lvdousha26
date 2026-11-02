@@ -3,6 +3,6 @@
 
 I'm a third-year undergraduate majoring in Data Science and Big Data Technology at China University of Petroleum (Beijing), and a former OIer/ACMer.
 
-My interests are still fairly scattered, but they mostly fall somewhere within AI. I'm not drawn to directions where the SOTA isn't open-source.
+My interests are still fairly scattered, but they mostly fall somewhere within AI. I'm not drawn to directions where the SOTA can't be reproduced.
 
 Open to internships, RA positions, and PhD opportunities.
