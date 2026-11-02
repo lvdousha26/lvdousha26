@@ -9,8 +9,6 @@ Open to internships, RA positions, and PhD opportunities.
 
 ---
 
-## 关于我
-
 我是中国石油大学（北京）数据科学与大数据技术专业的大三学生，曾是一名 OIer/ACMer。
 
 兴趣目前还比较发散，但大体都在 AI 领域。我不太想去 SOTA 无法复现的方向。
