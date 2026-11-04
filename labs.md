@@ -1,27 +1,45 @@
-# 课程实验
+# Labs & Projects
 
-几门课的 lab 单独开了仓库，过程留在提交记录里。
+Course labs and recent side projects, each in its own repo.
 
 ## CSAPP
 
-[csapp-labs](https://github.com/lvdousha26/csapp-labs)，C
+[csapp-labs](https://github.com/lvdousha26/csapp-labs), C
 
-CMU 15-213 的八个 lab：C 语言热身（队列 + 测试框架）、datalab 位运算、bomblab 拆炸弹、attacklab 缓冲区溢出、cachelab 缓存模拟与矩阵转置、shlab 带 job control 的 shell、malloclab 分配器、proxylab 带缓存的 HTTP 代理。
+All eight CMU 15-213 labs: the C warmup (queue plus test harness), datalab bit tricks, bomblab, attacklab, cachelab (cache simulator and blocked transpose), shlab (a shell with job control), malloclab (allocator), and proxylab (a caching HTTP proxy).
 
 ## JYY-OS
 
-[jyyos-labs](https://github.com/lvdousha26/jyyos-labs)，C
+[jyyos-labs](https://github.com/lvdousha26/jyyos-labs), C
 
-南大蒋炎岩"操作系统"课的实验，主线是"程序如何并发、又如何变成操作系统"：`pstree` 打印进程树，`libco` 写用户态协程库，`crepl` 写一个 C 语言解释器，`kernel` 加上 `abstract-machine` 在裸机上跑起最小内核。
+Nanjing University's OS course, which walks the line from how programs run concurrently to how a program becomes an operating system: `pstree` prints the process tree, `libco` is a user-level coroutine library, `crepl` is a C interpreter, and `kernel` on top of `abstract-machine` gets a minimal kernel running on bare metal.
 
 ## CS336
 
-[cs336-lab](https://github.com/lvdousha26/cs336-lab)，Python
+[cs336-lab](https://github.com/lvdousha26/cs336-lab), Python
 
-Stanford CS336 *Language Modeling from Scratch*，五个 assignment 都留了 writeup：
+Stanford CS336, Language Modeling from Scratch. Writeups for all five assignments:
 
-1. basics：BPE 分词器、Transformer、AdamW、训练循环
-2. systems：Triton kernel，DDP / FSDP / 张量并行
-3. scaling：Chinchilla 拟合与 IsoFLOP 曲线
-4. data：Common Crawl 抽取、质量过滤、去重
-5. alignment：SFT、DPO、RLHF（另有一份安全方向的补充）
+1. basics: BPE tokenizer, Transformer, AdamW, training loop
+2. systems: Triton kernels, DDP / FSDP / tensor parallelism
+3. scaling: Chinchilla fit and IsoFLOP curves
+4. data: Common Crawl extraction, quality filtering, dedup
+5. alignment: SFT, DPO, RLHF, plus a safety supplement
+
+## tiny-autograd
+
+[tiny-autograd](https://github.com/lvdousha26/tiny-autograd), C++17
+
+An autograd engine written from scratch. A `Tensor` records the op that produced it and which nodes consumed it; `graph::backward_tree` walks the ops backwards with an explicit stack, and `graph::backward_memo` does a memoized DFS that also gets DAGs right. Ops go from matmul, transpose and softmax through GELU, SiLU, layer norm and top-k; FC and conv layers are built on top, with MNIST training, GEMM and Transformer-block demos, and a small C ABI that the repo below calls from Python.
+
+## tiny-sparse-autoencoder
+
+[tiny-sparse-autoencoder](https://github.com/lvdousha26/tiny-sparse-autoencoder), Python
+
+A sparse autoencoder whose forward and backward passes run inside tiny-autograd, no PyTorch involved. Two backends share one API: the engine one (top-k or ReLU+L1, linear decoder, MSE) and an independent NumPy reference with hand-derived gradients and Adam, kept so the engine's gradients can be checked line by line. The benchmark uses a known ground-truth dictionary, so whether the features are real is a number rather than a guess.
+
+## data-preparation
+
+[data-preparation](https://github.com/lvdousha26/data-preparation), Python
+
+A runnable LLM pretraining data pipeline, following the CS246 guest lecture on data preparation: 12 stages from raw web pages to packed token sequences — extract, dedup at url/doc/line level, LangID, heuristic filters, decontamination, quality distillation, mixing, tokenizer, best-fit plus FIM packing, stage schedule. Each stage reads the previous `docs.jsonl` and writes its own directory with a `stats.json`, so any stage can be rerun, diffed, or ablated on its own.
