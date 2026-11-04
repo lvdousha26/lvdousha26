@@ -12,8 +12,6 @@ Open to internships, RA positions, and direct PhD opportunities.
 
 正在寻找实习、RA 以及直博机会。
 
-<sub>[Open Source](contributions.md) · [Labs & Projects](labs.md)</sub>
+<sub>[Open Source](contributions.md)<br>[vLLM](contributions.md#vllm) · [cs-self-learning](contributions.md#cs-self-learning) · [Open-Source-Dashboard](contributions.md#open-source-dashboard) · [HelloAgents](contributions.md#helloagents)</sub>
 
-<sub>[vLLM](contributions.md#vllm) · [cs-self-learning](contributions.md#cs-self-learning) · [Open-Source-Dashboard](contributions.md#open-source-dashboard) · [HelloAgents](contributions.md#helloagents)</sub>
-
-<sub>[CSAPP](labs.md#csapp) · [JYY-OS](labs.md#jyy-os) · [CS336](labs.md#cs336) · [tiny-autograd](labs.md#tiny-autograd) · [tiny-sparse-autoencoder](labs.md#tiny-sparse-autoencoder) · [data-preparation-pipeline](labs.md#data-preparation-pipeline)</sub>
+<sub>[Labs & Projects](labs.md)<br>[CSAPP](labs.md#csapp) · [JYY-OS](labs.md#jyy-os) · [CS336](labs.md#cs336) · [tiny-autograd](labs.md#tiny-autograd) · [tiny-sparse-autoencoder](labs.md#tiny-sparse-autoencoder) · [data-preparation-pipeline](labs.md#data-preparation-pipeline)</sub>
