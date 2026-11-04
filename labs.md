@@ -38,8 +38,8 @@ An autograd engine written from scratch. A `Tensor` records the op that produced
 
 A sparse autoencoder whose forward and backward passes run inside tiny-autograd, no PyTorch involved. Two backends share one API: the engine one (top-k or ReLU+L1, linear decoder, MSE) and an independent NumPy reference with hand-derived gradients and Adam, kept so the engine's gradients can be checked line by line. The benchmark uses a known ground-truth dictionary, so whether the features are real is a number rather than a guess.
 
-## data-preparation
+## data-preparation-pipeline
 
-[data-preparation](https://github.com/lvdousha26/data-preparation), Python
+[data-preparation-pipeline](https://github.com/lvdousha26/data-preparation-pipeline), Python
 
 A runnable LLM pretraining data pipeline, following the CS246 guest lecture on data preparation: 12 stages from raw web pages to packed token sequences — extract, dedup at url/doc/line level, LangID, heuristic filters, decontamination, quality distillation, mixing, tokenizer, best-fit plus FIM packing, stage schedule. Each stage reads the previous `docs.jsonl` and writes its own directory with a `stats.json`, so any stage can be rerun, diffed, or ablated on its own.
