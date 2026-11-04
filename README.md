@@ -14,3 +14,9 @@ Open to internships, RA positions, and direct PhD opportunities.
 兴趣还比较发散，大致是 AI 领域。不太想去 SOTA 基本都复现不出的方向。
 
 正在寻找实习、RA 以及直博机会。
+
+<sub>[开源贡献](contributions.md) · [课程实验](labs.md)</sub>
+
+<sub>贡献　[vLLM](contributions.md#vllm) · [cs-self-learning](contributions.md#cs-self-learning) · [Open-Source-Dashboard](contributions.md#open-source-dashboard) · [HelloAgents](contributions.md#helloagents)</sub>
+
+<sub>实验　[CSAPP](labs.md#csapp) · [JYY-OS](labs.md#jyy-os) · [CS336](labs.md#cs336)</sub>
