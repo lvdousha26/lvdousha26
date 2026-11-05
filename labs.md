@@ -67,3 +67,15 @@ What sits between `send()` and a function call: a 16-byte fixed header (magic, r
 [minigit](https://github.com/lvdousha26/minigit), Go
 
 A small Git that writes a `.git` directory real Git can read: `git log`, `git status`, `git cat-file`, `git ls-tree` and `git fsck --strict` all run against it in the tests, and it reads Git-created objects and the index the other way. Covers loose objects (SHA-1 over `<type> <len>\0<content>`, zlib), the DIRC v2 index with its 8-byte alignment and trailing checksum, tree entries, commits and refs. Tree sorting is the easy one to get wrong — a directory name compares as if it had a trailing `/`, so `a-b.txt`, `a.txt`, `a/` is not plain string order and `git fsck --strict` rejects it. No packfiles, merges, checkout, remotes or reflog.
+
+## port-scanner
+
+[port-scanner](https://github.com/lvdousha26/port-scanner), C
+
+A TCP connect scanner, the `nmap -sT` behavior rebuilt from the socket layer up. Non-blocking `connect()` calls go out in batches and are driven by one `select()` loop; each has its own deadline and the loop sleeps only until the earliest one expires. A writable fd is not proof of an open port — `getsockopt(SO_ERROR)` is what separates a completed handshake from an RST, while a deadline with no answer is filtered rather than closed. Concurrency is capped at `FD_SETSIZE - 8`, the real reason the default is not a few thousand; going past that needs epoll or kqueue. Results print in port order, not completion order, and banner bytes are scrubbed before they reach a terminal. No SYN scans, UDP, or OS fingerprinting.
+
+## dir-bruter
+
+[dir-bruter](https://github.com/lvdousha26/dir-bruter), Go
+
+A directory brute forcer in the shape of ffuf / gobuster's dir mode. A fixed worker pool shares one rate limiter; redirects are not followed, so a 301 is reported with its `Location` instead of being resolved into a 404. Auto-calibration is the part worth reading: it probes a few random long paths, learns the site's soft-404 signature (status plus a SHA-256 of the body) and drops every response matching it, which is what makes a server that answers 200 for any path usable. Status and size filters, extensions, bounded recursion with a visited set, sorted text or JSON output. Standard library only, and every test runs against `httptest` rather than the network.
