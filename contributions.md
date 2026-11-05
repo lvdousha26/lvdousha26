@@ -29,3 +29,9 @@ Two smaller ones (keyboard access on the leaderboard, the local Vite port) were 
 [jjyaoao/HelloAgents#116](https://github.com/jjyaoao/HelloAgents/pull/116), open
 
 qdrant-client 1.16.0 removed `CollectionInfo.vectors_count`. `QdrantVectorStore.get_collection_info()` read that field directly, so the `AttributeError` was raised, swallowed by the surrounding `except Exception`, and `get_collection_stats()` came back as an empty dict — every statistic gone, plus one failure log per call. Replaced with `getattr` fallbacks (a single unnamed vector collection can fall back to `points_count`), checked on 1.15.1 / 1.16.0 / 1.19.1.
+
+## LLaMA-Factory
+
+[hiyouga/LlamaFactory#10934](https://github.com/hiyouga/LlamaFactory/pull/10934), merged
+
+Three README paths that no longer resolve, in both the English and Chinese files. `examples/requirements/` moved to the repo root in v0.9.5, so the install command fails — the sentence right above it already uses `requirements/metrics.txt`. The changelog entry for the OpenAI-compatible API still names `src/api_demo.py`, now `src/api.py`. And `Qwen/Qwen2-Audio-7B-Instruct` had no scheme, so GitHub resolved it as a directory inside LLaMA-Factory rather than a model on Hugging Face.
